@@ -1,10 +1,7 @@
 using UnityEngine;
 
-namespace Runtime.ScriptableObjectsScripts
+[CreateAssetMenu(fileName = "Vector2GameEvent", menuName = "ScriptableObjects/GameEvents/Vector2", order = 0)]
+public class Vector2GameEvent : GameEvent<Vector2>
 {
-    [CreateAssetMenu(fileName = "Vector2GameEvent", menuName = "ScriptableObjects/GameEvents/Vector2", order = 0)]
-    public class Vector2GameEvent : GameEvent<Vector2>
-    {
         
-    }
 }

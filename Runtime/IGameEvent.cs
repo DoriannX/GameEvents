@@ -1,7 +1,4 @@
-namespace Runtime.ScriptableObjectsScripts
+public interface IGameEvent
 {
-    public interface IGameEvent
-    {
-        public void ClearListeners();
-    }
+    public void ClearListeners();
 }
